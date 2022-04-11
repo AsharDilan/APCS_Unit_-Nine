@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
 
 class UltimateFrisbeeTests {
-/*
+
     private static Player player;
     private static Player playerNoName;
     private static UltimatePlayer player1;
@@ -150,6 +150,6 @@ class UltimateFrisbeeTests {
         assertEquals(expected1+expected2, team.toString());
     }
 
- */
+
 
 }
