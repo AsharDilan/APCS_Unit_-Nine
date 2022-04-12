@@ -6,12 +6,19 @@ public class UltimatePlayer extends Player {
     public UltimatePlayer(String firstName, String lastName, String position) {
         super(firstName, lastName);
 
+
         if("cutter".equals(position) || "handler".equals(position))
             this.position = position;
         else this.position = "handler";
 
         this.jerseyNumberCounter++;
         this.jerseyNumber = jerseyNumberCounter;
+    }
+
+    public UltimatePlayer(){
+        super();
+        this.jerseyNumber = 0;
+        this.position = "handler";
     }
 
     public String getPosition() {

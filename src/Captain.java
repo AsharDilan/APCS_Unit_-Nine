@@ -9,6 +9,11 @@ public class Captain extends UltimatePlayer {
         if(type) actualType = "offense";
         else actualType = "defense";
     }
+    public Captain(){
+        super();
+        actualType = "defense";
+
+    }
 
     public String toString() {
         return super.toString() + "\n   Captain: " + actualType;

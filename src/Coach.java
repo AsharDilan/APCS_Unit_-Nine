@@ -5,6 +5,10 @@ public class Coach extends Player {
         super(firstName, lastName);
         this.role = role;
     }
+    public Coach(){
+        super();
+        this.role = "coach";
+    }
 
     public String toString() {
         return super.toString() + "\n   Role: " + this.role;
