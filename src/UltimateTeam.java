@@ -18,13 +18,13 @@ public class UltimateTeam {
     }
 
     public String toString() {
-        String s = "Coaches";
+        String s = "COACHES\n";
         for (Coach coach : this.coaches) {
-            s += coach.toString() + " ";
+            s += coach.toString() + "\n";
         }
-        s += "Players";
+        s += "\nPLAYERS\n";
         for (UltimatePlayer player : this.players) {
-            s += player.toString() + " ";
+            s += player.toString() + "\n";
         }
         return s;
     }
@@ -32,7 +32,7 @@ public class UltimateTeam {
         String s = "";
         for (UltimatePlayer player : this.players) {
             if (position.equals(player.getPosition())) {
-                s += player.toString() + " ";
+                s += player.toString() + "\n";
             }
         }
         return s;
